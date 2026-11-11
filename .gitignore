@@ -1,0 +1,14 @@
+# Secrets - never commit API keys
+.env
+*.env
+
+# promptfoo local output and cache
+.promptfoo/
+output*.json
+*.log
+
+# Website files live in the portfolio site, not this repo
+website-update/
+
+# macOS
+.DS_Store
